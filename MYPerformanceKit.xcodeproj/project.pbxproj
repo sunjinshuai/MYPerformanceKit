@@ -15,6 +15,12 @@
 		322C65A3226C4A30003655B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65A2226C4A30003655B5 /* main.m */; };
 		322C65AD226C4A30003655B5 /* MYPerformanceKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65AC226C4A30003655B5 /* MYPerformanceKitTests.m */; };
 		322C65B8226C4A30003655B5 /* MYPerformanceKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65B7226C4A30003655B5 /* MYPerformanceKitUITests.m */; };
+		322C65CD226C4C16003655B5 /* MYTeleponyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65C7226C4C16003655B5 /* MYTeleponyManager.m */; };
+		322C65CE226C4C16003655B5 /* MYVolumeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65C9226C4C16003655B5 /* MYVolumeManager.m */; };
+		322C65CF226C4C16003655B5 /* MYSoundService.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65CA226C4C16003655B5 /* MYSoundService.m */; };
+		322C65D3226C4D92003655B5 /* MYSoundServiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65D2226C4D92003655B5 /* MYSoundServiceViewController.m */; };
+		322C65D5226C4DE7003655B5 /* brithdayMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 322C65D4226C4DE7003655B5 /* brithdayMusic.mp3 */; };
+		322C65D9226C5052003655B5 /* MBProgressHUD+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C65D8226C5052003655B5 /* MBProgressHUD+Extension.m */; };
 		AA45B88A389EE45980272796 /* libPods-MYPerformanceKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384038C6888C5C6C6EBFC243 /* libPods-MYPerformanceKit.a */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +58,17 @@
 		322C65B3226C4A30003655B5 /* MYPerformanceKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYPerformanceKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322C65B7226C4A30003655B5 /* MYPerformanceKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPerformanceKitUITests.m; sourceTree = "<group>"; };
 		322C65B9226C4A30003655B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322C65C7226C4C16003655B5 /* MYTeleponyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTeleponyManager.m; sourceTree = "<group>"; };
+		322C65C8226C4C16003655B5 /* MYSoundService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYSoundService.h; sourceTree = "<group>"; };
+		322C65C9226C4C16003655B5 /* MYVolumeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYVolumeManager.m; sourceTree = "<group>"; };
+		322C65CA226C4C16003655B5 /* MYSoundService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYSoundService.m; sourceTree = "<group>"; };
+		322C65CB226C4C16003655B5 /* MYTeleponyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTeleponyManager.h; sourceTree = "<group>"; };
+		322C65CC226C4C16003655B5 /* MYVolumeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYVolumeManager.h; sourceTree = "<group>"; };
+		322C65D1226C4D92003655B5 /* MYSoundServiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYSoundServiceViewController.h; sourceTree = "<group>"; };
+		322C65D2226C4D92003655B5 /* MYSoundServiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYSoundServiceViewController.m; sourceTree = "<group>"; };
+		322C65D4226C4DE7003655B5 /* brithdayMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brithdayMusic.mp3; sourceTree = "<group>"; };
+		322C65D7226C5052003655B5 /* MBProgressHUD+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Extension.h"; sourceTree = "<group>"; };
+		322C65D8226C5052003655B5 /* MBProgressHUD+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Extension.m"; sourceTree = "<group>"; };
 		384038C6888C5C6C6EBFC243 /* libPods-MYPerformanceKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYPerformanceKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F500E24668427AEB9A0A6A /* Pods-MYPerformanceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPerformanceKit.release.xcconfig"; path = "Target Support Files/Pods-MYPerformanceKit/Pods-MYPerformanceKit.release.xcconfig"; sourceTree = "<group>"; };
 		D0F111E2CB88A39C5ADCFE5B /* Pods-MYPerformanceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPerformanceKit.debug.xcconfig"; path = "Target Support Files/Pods-MYPerformanceKit/Pods-MYPerformanceKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +103,7 @@
 		322C6587226C4A2F003655B5 = {
 			isa = PBXGroup;
 			children = (
+				322C65C5226C4C16003655B5 /* Modules */,
 				322C6592226C4A2F003655B5 /* MYPerformanceKit */,
 				322C65AB226C4A30003655B5 /* MYPerformanceKitTests */,
 				322C65B6226C4A30003655B5 /* MYPerformanceKitUITests */,
@@ -112,6 +130,8 @@
 				322C6594226C4A2F003655B5 /* AppDelegate.m */,
 				322C6596226C4A2F003655B5 /* ViewController.h */,
 				322C6597226C4A2F003655B5 /* ViewController.m */,
+				322C65D1226C4D92003655B5 /* MYSoundServiceViewController.h */,
+				322C65D2226C4D92003655B5 /* MYSoundServiceViewController.m */,
 				322C6599226C4A2F003655B5 /* Main.storyboard */,
 				322C659C226C4A30003655B5 /* Assets.xcassets */,
 				322C659E226C4A30003655B5 /* LaunchScreen.storyboard */,
@@ -139,13 +159,52 @@
 			path = MYPerformanceKitUITests;
 			sourceTree = "<group>";
 		};
+		322C65C5226C4C16003655B5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				322C65D6226C5033003655B5 /* HUD */,
+				322C65D0226C4C3D003655B5 /* Resources */,
+				322C65C6226C4C16003655B5 /* MYSoundServiceKit */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		322C65C6226C4C16003655B5 /* MYSoundServiceKit */ = {
+			isa = PBXGroup;
+			children = (
+				322C65CB226C4C16003655B5 /* MYTeleponyManager.h */,
+				322C65C7226C4C16003655B5 /* MYTeleponyManager.m */,
+				322C65C8226C4C16003655B5 /* MYSoundService.h */,
+				322C65CA226C4C16003655B5 /* MYSoundService.m */,
+				322C65CC226C4C16003655B5 /* MYVolumeManager.h */,
+				322C65C9226C4C16003655B5 /* MYVolumeManager.m */,
+			);
+			path = MYSoundServiceKit;
+			sourceTree = "<group>";
+		};
+		322C65D0226C4C3D003655B5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				322C65D4226C4DE7003655B5 /* brithdayMusic.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		322C65D6226C5033003655B5 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				322C65D7226C5052003655B5 /* MBProgressHUD+Extension.h */,
+				322C65D8226C5052003655B5 /* MBProgressHUD+Extension.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		574ACC4D67A668C08E12324D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				D0F111E2CB88A39C5ADCFE5B /* Pods-MYPerformanceKit.debug.xcconfig */,
 				57F500E24668427AEB9A0A6A /* Pods-MYPerformanceKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -264,6 +323,7 @@
 				322C65A0226C4A30003655B5 /* LaunchScreen.storyboard in Resources */,
 				322C659D226C4A30003655B5 /* Assets.xcassets in Resources */,
 				322C659B226C4A2F003655B5 /* Main.storyboard in Resources */,
+				322C65D5226C4DE7003655B5 /* brithdayMusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +374,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				322C6598226C4A2F003655B5 /* ViewController.m in Sources */,
+				322C65D9226C5052003655B5 /* MBProgressHUD+Extension.m in Sources */,
+				322C65CF226C4C16003655B5 /* MYSoundService.m in Sources */,
 				322C65A3226C4A30003655B5 /* main.m in Sources */,
+				322C65CE226C4C16003655B5 /* MYVolumeManager.m in Sources */,
 				322C6595226C4A2F003655B5 /* AppDelegate.m in Sources */,
+				322C65CD226C4C16003655B5 /* MYTeleponyManager.m in Sources */,
+				322C65D3226C4D92003655B5 /* MYSoundServiceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

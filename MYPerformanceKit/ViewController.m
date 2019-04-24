@@ -25,6 +25,7 @@
     
     [self.dataSource addObject:@"*声音播放*-MYSoundServiceViewController"];
     [self.dataSource addObject:@"*UIScrollView 的滑动和系统侧滑手势并存*-MYPopGestureViewController"];
+    [self.dataSource addObject:@"*检查当前wifi是否需要验证密码*-MYCaptivePortalWIFIViewController"];
     
     [self.view addSubview:self.tableView];
 }

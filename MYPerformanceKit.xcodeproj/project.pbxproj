@@ -27,6 +27,8 @@
 		32A441412270025A001BBA86 /* MYCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A441402270025A001BBA86 /* MYCollectionViewController.m */; };
 		32A441442270026A001BBA86 /* MYMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A441432270026A001BBA86 /* MYMapViewController.m */; };
 		32A441472270027B001BBA86 /* MYPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A441462270027B001BBA86 /* MYPageViewController.m */; };
+		32A4414D22700B97001BBA86 /* CaptivePortalWIFIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4414C22700B97001BBA86 /* CaptivePortalWIFIManager.m */; };
+		32A4415022700FFC001BBA86 /* MYCaptivePortalWIFIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A4414F22700FFC001BBA86 /* MYCaptivePortalWIFIViewController.m */; };
 		AA45B88A389EE45980272796 /* libPods-MYPerformanceKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 384038C6888C5C6C6EBFC243 /* libPods-MYPerformanceKit.a */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,10 @@
 		32A441432270026A001BBA86 /* MYMapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYMapViewController.m; sourceTree = "<group>"; };
 		32A441452270027B001BBA86 /* MYPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPageViewController.h; sourceTree = "<group>"; };
 		32A441462270027B001BBA86 /* MYPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPageViewController.m; sourceTree = "<group>"; };
+		32A4414B22700B97001BBA86 /* CaptivePortalWIFIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaptivePortalWIFIManager.h; sourceTree = "<group>"; };
+		32A4414C22700B97001BBA86 /* CaptivePortalWIFIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaptivePortalWIFIManager.m; sourceTree = "<group>"; };
+		32A4414E22700FFC001BBA86 /* MYCaptivePortalWIFIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYCaptivePortalWIFIViewController.h; sourceTree = "<group>"; };
+		32A4414F22700FFC001BBA86 /* MYCaptivePortalWIFIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYCaptivePortalWIFIViewController.m; sourceTree = "<group>"; };
 		384038C6888C5C6C6EBFC243 /* libPods-MYPerformanceKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MYPerformanceKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57F500E24668427AEB9A0A6A /* Pods-MYPerformanceKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPerformanceKit.release.xcconfig"; path = "Target Support Files/Pods-MYPerformanceKit/Pods-MYPerformanceKit.release.xcconfig"; sourceTree = "<group>"; };
 		D0F111E2CB88A39C5ADCFE5B /* Pods-MYPerformanceKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPerformanceKit.debug.xcconfig"; path = "Target Support Files/Pods-MYPerformanceKit/Pods-MYPerformanceKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -178,6 +184,7 @@
 		322C65C5226C4C16003655B5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				32A4414A22700B81001BBA86 /* CaptivePortalWIFI */,
 				32A44135226FFB45001BBA86 /* ScrollViewPopGesture */,
 				322C65D6226C5033003655B5 /* HUD */,
 				322C65D0226C4C3D003655B5 /* Resources */,
@@ -195,8 +202,7 @@
 				322C65CA226C4C16003655B5 /* MYSoundService.m */,
 				322C65CC226C4C16003655B5 /* MYVolumeManager.h */,
 				322C65C9226C4C16003655B5 /* MYVolumeManager.m */,
-				322C65D1226C4D92003655B5 /* MYSoundServiceViewController.h */,
-				322C65D2226C4D92003655B5 /* MYSoundServiceViewController.m */,
+				32A4414922700ADD001BBA86 /* Demo */,
 			);
 			path = MYSoundServiceKit;
 			sourceTree = "<group>";
@@ -223,6 +229,14 @@
 			children = (
 				32A44136226FFC52001BBA86 /* UIViewController+PopGesture.h */,
 				32A44137226FFC52001BBA86 /* UIViewController+PopGesture.m */,
+				32A4414822700ACD001BBA86 /* Demo */,
+			);
+			path = ScrollViewPopGesture;
+			sourceTree = "<group>";
+		};
+		32A4414822700ACD001BBA86 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
 				32A44139227001DB001BBA86 /* MYPopGestureViewController.h */,
 				32A4413A227001DB001BBA86 /* MYPopGestureViewController.m */,
 				32A4413C22700248001BBA86 /* MYScrollViewController.h */,
@@ -234,7 +248,35 @@
 				32A441452270027B001BBA86 /* MYPageViewController.h */,
 				32A441462270027B001BBA86 /* MYPageViewController.m */,
 			);
-			path = ScrollViewPopGesture;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		32A4414922700ADD001BBA86 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				322C65D1226C4D92003655B5 /* MYSoundServiceViewController.h */,
+				322C65D2226C4D92003655B5 /* MYSoundServiceViewController.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		32A4414A22700B81001BBA86 /* CaptivePortalWIFI */ = {
+			isa = PBXGroup;
+			children = (
+				32A4414B22700B97001BBA86 /* CaptivePortalWIFIManager.h */,
+				32A4414C22700B97001BBA86 /* CaptivePortalWIFIManager.m */,
+				32A4415122701000001BBA86 /* Demo */,
+			);
+			path = CaptivePortalWIFI;
+			sourceTree = "<group>";
+		};
+		32A4415122701000001BBA86 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				32A4414E22700FFC001BBA86 /* MYCaptivePortalWIFIViewController.h */,
+				32A4414F22700FFC001BBA86 /* MYCaptivePortalWIFIViewController.m */,
+			);
+			path = Demo;
 			sourceTree = "<group>";
 		};
 		574ACC4D67A668C08E12324D /* Pods */ = {
@@ -411,6 +453,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32A4415022700FFC001BBA86 /* MYCaptivePortalWIFIViewController.m in Sources */,
 				32A441412270025A001BBA86 /* MYCollectionViewController.m in Sources */,
 				322C6598226C4A2F003655B5 /* ViewController.m in Sources */,
 				32A441442270026A001BBA86 /* MYMapViewController.m in Sources */,
@@ -418,6 +461,7 @@
 				322C65D9226C5052003655B5 /* MBProgressHUD+Extension.m in Sources */,
 				32A44138226FFC52001BBA86 /* UIViewController+PopGesture.m in Sources */,
 				322C65CF226C4C16003655B5 /* MYSoundService.m in Sources */,
+				32A4414D22700B97001BBA86 /* CaptivePortalWIFIManager.m in Sources */,
 				32A441472270027B001BBA86 /* MYPageViewController.m in Sources */,
 				32A4413B227001DB001BBA86 /* MYPopGestureViewController.m in Sources */,
 				322C65A3226C4A30003655B5 /* main.m in Sources */,

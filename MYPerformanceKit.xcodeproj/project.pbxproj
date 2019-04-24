@@ -162,6 +162,7 @@
 		322C65C5226C4C16003655B5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				32A44135226FFB45001BBA86 /* ScrollViewPopGesture */,
 				322C65D6226C5033003655B5 /* HUD */,
 				322C65D0226C4C3D003655B5 /* Resources */,
 				322C65C6226C4C16003655B5 /* MYSoundServiceKit */,
@@ -197,6 +198,13 @@
 				322C65D8226C5052003655B5 /* MBProgressHUD+Extension.m */,
 			);
 			path = HUD;
+			sourceTree = "<group>";
+		};
+		32A44135226FFB45001BBA86 /* ScrollViewPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScrollViewPopGesture;
 			sourceTree = "<group>";
 		};
 		574ACC4D67A668C08E12324D /* Pods */ = {
